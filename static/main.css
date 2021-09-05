@@ -1,0 +1,39 @@
+#main_container {
+    max-width: 60rem;
+}
+
+article {
+    max-width: 45rem;
+}
+
+#title_flex {
+    height: 15rem;
+}
+
+#page_title {
+    display: flex;
+    text-align: center;
+}
+
+.tag_item {
+    min-width: max-content;
+}
+
+#footer_row {
+    height: 10rem;
+}
+
+#footer_col {
+    display: flex;
+}
+
+footer a,
+.tag_item a {
+    color: var(--bs-body-color) !important;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
