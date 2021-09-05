@@ -87,6 +87,6 @@
 </body>
 <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/2b17c92aac.js"></script>
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
 
 </html>
