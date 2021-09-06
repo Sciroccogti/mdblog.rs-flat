@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ config.site_url }}/static/favicon.png">
     <link rel="stylesheet" href="{{ config.site_url }}/static/main.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/solid.min.css" rel="stylesheet"><!--fas -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" rel="stylesheet">
     {%- block css %}{% endblock css -%}
     {%- block title %}{% endblock title -%}
 </head>
@@ -57,7 +61,7 @@
                         <div class="card-body row">
                             <div class="tag_item col-1">
                                 <a href="{{ config.site_url }}/atom.xml" target="_blank">
-                                    <i class="fa fa-rss fa-lg"></i>
+                                    <i class="fas fa-rss"></i>
                                 </a>
                             </div>
                         </div>
@@ -85,8 +89,5 @@
     </footer>
     {%- block js %}{% endblock js -%}
 </body>
-<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-<script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
 
 </html>
